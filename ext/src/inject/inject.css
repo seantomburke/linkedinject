@@ -1,0 +1,19 @@
+/**
+ * Place your custom CSS styles here.
+ **/
+
+div.linkedinject {
+    display: inline;
+    background-color: #0077B5;
+    color: #fff;
+    border-radius: 2px;
+    padding: 0px 2px;
+    font-weight: bold;
+    margin: 1px;
+    height: 17px !important;
+    width: 13px !important;
+    font-family: Helvetica !important;
+    font-style: normal !important;
+    text-transform: lowercase;
+    text-align: center;
+}
