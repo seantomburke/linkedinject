@@ -51,8 +51,11 @@ function showIn(){
             if(el.nodeName === '#text'){
                 t += el.textContent.replace(/in/gi, "<div class='linkedinject'>in</div>");
             }
+            else if(el.nodeName == '#comment'){
+                t += '<!--' + el.nodeValue + '-->';
+            }
             else {
-                t += el.outerHTML;
+                t += (el.outerHTML) ? el.outerHTML: el.textContent;
             }
         });
         return t;
